@@ -82,7 +82,7 @@ input[type="text"] {
     line-height: 1.4;
 }
 
-
+/* Media Query for smaller screens */
 @media only screen and (max-width: 600px) {
     body {
         padding: 20px;
@@ -95,8 +95,11 @@ input[type="text"] {
         padding: 10px;
     }
 }
+
+/* Add hover effect to anime items */
 .anime-item:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
+
 
