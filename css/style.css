@@ -1,0 +1,102 @@
+/* Add more styles to your CSS file (style.css) */
+
+/* body Style */
+body {
+    background-image: linear-gradient(to right, #000000, #2f2d2d, #5c5757, #8d8485, #c1b5b5);    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* header Style */
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+}
+
+/* student info styles */
+#student-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/*buttons styles*/
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Add hover effect to buttons */
+button:hover {
+    background-color: #0056b3;
+}
+
+/*input field styles*/
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+/*anime item styles */
+.anime-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*anime title styles*/
+.anime-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*anime image styles */
+.anime-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/*anime synopsis styles */
+.anime-item p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+    .anime-item {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+.anime-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
